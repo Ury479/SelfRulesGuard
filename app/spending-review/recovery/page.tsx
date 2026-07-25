@@ -3,6 +3,8 @@ import { ArrowLeft } from "lucide-react"
 import { getRecoveryActions } from "@/app/actions/spending-review"
 import { RecoveryActionsPanel } from "@/components/recovery-actions-panel"
 
+export const dynamic = "force-dynamic"
+
 export default async function RecoveryPage() {
   const actions = await getRecoveryActions()
 

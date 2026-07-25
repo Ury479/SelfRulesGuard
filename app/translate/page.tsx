@@ -5,6 +5,8 @@ export const metadata = {
   title: "中转英 | 关键动作拦截台",
 }
 
+export const dynamic = "force-dynamic"
+
 export default async function TranslatePage() {
   const history = await getTranslations()
 

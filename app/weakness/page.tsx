@@ -24,6 +24,8 @@ export const metadata: Metadata = {
   description: "识别贪多、急躁、跳步、讨好、冲动消费、多线分散六类短板,提前布防。",
 }
 
+export const dynamic = "force-dynamic"
+
 const ALL_KEYS = Object.keys(WEAKNESS_LABELS) as WeaknessKey[]
 
 export default async function WeaknessCenterPage() {

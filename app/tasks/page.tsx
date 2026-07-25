@@ -11,6 +11,8 @@ export const metadata: Metadata = {
   description: "目标 → 拆解 → 执行 → 量化 → 反馈的任务闭环",
 }
 
+export const dynamic = "force-dynamic"
+
 export default async function TasksPage() {
   const data = await getTaskTreeData()
 

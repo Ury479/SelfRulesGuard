@@ -9,6 +9,8 @@ import type { SpendingReview } from "@/lib/db/schema"
 
 export const metadata = { title: "决策拦截台 | 高额支出审查" }
 
+export const dynamic = "force-dynamic"
+
 function ReviewRow({ r }: { r: SpendingReview }) {
   return (
     <Link
