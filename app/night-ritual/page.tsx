@@ -4,6 +4,8 @@ import { getYesterdaySnapshot } from "@/app/actions/rhythm"
 import { getPrincipleReminder } from "@/app/actions/entropy-principles"
 import { NightRitualPanel } from "@/components/night-ritual-panel"
 
+export const dynamic = "force-dynamic"
+
 export const metadata: Metadata = { title: "夜间仪式" }
 
 export default async function NightRitualPage() {

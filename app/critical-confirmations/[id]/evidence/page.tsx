@@ -4,6 +4,8 @@ import { getEvidence } from "@/app/actions/evidence-review"
 import { EvidenceForm } from "@/components/evidence-form"
 import { EVIDENCE_TYPE_LABELS, type EvidenceType } from "@/lib/types"
 
+export const dynamic = "force-dynamic"
+
 export const metadata = { title: "必要证据 | 关键动作拦截台" }
 
 export default async function EvidencePage({

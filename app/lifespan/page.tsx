@@ -3,6 +3,8 @@ import { getLifespanSummary } from "@/app/actions/lifespan"
 import { LifespanPanel } from "@/components/lifespan-panel"
 import { LifeWeeksHeatmap } from "@/components/life-weeks-heatmap"
 
+export const dynamic = "force-dynamic"
+
 export const metadata: Metadata = { title: "寿命倒计时" }
 
 export default async function LifespanPage() {

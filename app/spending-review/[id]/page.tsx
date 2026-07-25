@@ -18,6 +18,8 @@ import {
 import { RiskBadge, DecisionStatusBadge } from "@/components/spending-badges"
 import { CoolingRecheck, FinalDecisionForm, DeleteReviewButton } from "@/components/spending-detail-actions"
 
+export const dynamic = "force-dynamic"
+
 function Field({ label, value }: { label: string; value: React.ReactNode }) {
   return (
     <div className="flex flex-col gap-0.5">

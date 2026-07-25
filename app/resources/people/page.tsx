@@ -9,6 +9,8 @@ import {
   interactionStatusLabel,
 } from "@/lib/resource-types"
 
+export const dynamic = "force-dynamic"
+
 export const metadata = { title: "人脉资源" }
 
 function statusTone(status: string): string {

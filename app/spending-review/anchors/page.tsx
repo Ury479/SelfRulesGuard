@@ -3,6 +3,8 @@ import { ArrowLeft } from "lucide-react"
 import { getAnchors } from "@/app/actions/spending-anchors"
 import { AnchorManager } from "@/components/anchor-manager"
 
+export const dynamic = "force-dynamic"
+
 export const metadata = { title: "消费参照物 | 决策拦截台" }
 
 export default async function SpendingAnchorsPage() {

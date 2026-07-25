@@ -4,6 +4,8 @@ import { ArrowLeft } from "lucide-react"
 import { getSpendingReview } from "@/app/actions/spending-review"
 import { GptResultForm } from "@/components/gpt-result-form"
 
+export const dynamic = "force-dynamic"
+
 export default async function GptResultPage({
   params,
 }: {

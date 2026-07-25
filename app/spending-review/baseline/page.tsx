@@ -3,6 +3,8 @@ import { ArrowLeft } from "lucide-react"
 import { getDecisionBaseline } from "@/app/actions/spending-review"
 import { DecisionBaselineForm } from "@/components/decision-baseline-form"
 
+export const dynamic = "force-dynamic"
+
 export default async function DecisionBaselinePage() {
   const baseline = await getDecisionBaseline()
 

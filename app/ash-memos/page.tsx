@@ -6,6 +6,8 @@ import { Card, CardContent } from "@/components/ui/card"
 import { AshMemoList } from "@/components/ash-memo-list"
 import { Flame, Plus } from "lucide-react"
 
+export const dynamic = "force-dynamic"
+
 export const metadata: Metadata = {
   title: "灰烬备忘录 | 关键动作拦截台",
   description: "把刺痛的经历转化为原则和拦截规则。",

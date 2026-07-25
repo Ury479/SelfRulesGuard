@@ -4,6 +4,8 @@ import { getEntertainmentDashboard } from "@/app/actions/entertainment"
 import { StartEntertainmentForm } from "@/components/entertainment-forms"
 import { RESULT_META } from "@/lib/entertainment-rules"
 
+export const dynamic = "force-dynamic"
+
 export const metadata = { title: "娱乐闭环 | 决策拦截台", description: "用边界、结果评估与复盘管理娱乐，而不是用意志力对抗。" }
 
 const statusLabel: Record<string, string> = { active: "进行中", ended: "待评估", assessed: "待复盘", reviewed: "已闭环", abandoned: "已放弃" }

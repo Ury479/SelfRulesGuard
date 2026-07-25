@@ -3,6 +3,8 @@ import { getYesterdaySnapshot, getRhythmTrend } from "@/app/actions/rhythm"
 import { getPrincipleReminder, getTodayFirstTask } from "@/app/actions/entropy-principles"
 import { MorningRoutinePanel } from "@/components/morning-routine-panel"
 
+export const dynamic = "force-dynamic"
+
 export const metadata: Metadata = { title: "晨间启动" }
 
 export default async function MorningRoutinePage() {

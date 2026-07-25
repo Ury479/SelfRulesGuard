@@ -18,6 +18,8 @@ import {
 } from "@/components/person-detail-actions"
 import { cn } from "@/lib/utils"
 
+export const dynamic = "force-dynamic"
+
 export const metadata = { title: "联系人详情" }
 
 function fmt(d: Date | null): string {

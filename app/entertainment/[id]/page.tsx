@@ -7,6 +7,8 @@ import { RESULT_META } from "@/lib/entertainment-rules"
 import { buildGptPrompt } from "@/lib/entertainment-exports"
 import { CopyBlock, MarkdownViewer } from "@/components/entertainment-export-viewer"
 
+export const dynamic = "force-dynamic"
+
 export default async function EntertainmentSessionPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params
   const detail = await getEntertainmentSessionDetail(Number(id))

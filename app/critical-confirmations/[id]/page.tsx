@@ -1,6 +1,8 @@
 import { notFound, redirect } from "next/navigation"
 import { getConfirmation } from "@/app/actions/confirmations"
 
+export const dynamic = "force-dynamic"
+
 // /critical-confirmations/[id] 没有独立详情页,统一进入 90% 检查流程
 export default async function ConfirmationEntryPage({
   params,

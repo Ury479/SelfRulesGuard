@@ -4,6 +4,8 @@ import { CheckFlow } from "@/components/check-flow"
 import { RiskBadge, DomainBadge } from "@/components/badges"
 import { TriangleAlert } from "lucide-react"
 
+export const dynamic = "force-dynamic"
+
 export const metadata = { title: "90% 检查 | 关键动作拦截台" }
 
 export default async function CheckPage({

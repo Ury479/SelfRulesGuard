@@ -2,6 +2,8 @@ import type { Metadata } from "next"
 import { getDemandsOverview } from "@/app/actions/weakness"
 import { DemandBoard } from "@/components/demand-board"
 
+export const dynamic = "force-dynamic"
+
 export const metadata: Metadata = {
   title: "需求与 Backlog | 关键动作拦截台",
   description: "P0 锁定机制:P0 未完成前,新增需求默认进入 Backlog。",

@@ -3,6 +3,8 @@ import { getRules } from "@/app/actions/rules"
 import { getReviews } from "@/app/actions/evidence-review"
 import { getRuleExecutionStats } from "@/app/actions/entropy-principles"
 
+export const dynamic = "force-dynamic"
+
 export const metadata = {
   title: "规则库 | 关键动作拦截台",
 }

@@ -3,6 +3,8 @@ import type { Metadata } from "next"
 import { getRelationship } from "@/app/actions/relationships"
 import { InteractionForm } from "@/components/interaction-form"
 
+export const dynamic = "force-dynamic"
+
 export const metadata: Metadata = {
   title: "记录互动 | 人际关系筛查台",
 }

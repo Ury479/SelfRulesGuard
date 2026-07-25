@@ -2,6 +2,8 @@ import { notFound } from "next/navigation"
 import { RuleConfirm } from "@/components/rule-confirm"
 import { getRule } from "@/app/actions/rules"
 
+export const dynamic = "force-dynamic"
+
 export const metadata = {
   title: "确认拦截规则 | 关键动作拦截台",
 }

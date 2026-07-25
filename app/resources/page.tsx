@@ -13,6 +13,8 @@ import {
 } from "@/lib/resource-types"
 import { Plus, Users, Boxes } from "lucide-react"
 
+export const dynamic = "force-dynamic"
+
 export const metadata = { title: "资源配置台" }
 
 function statusTone(status: string): string {

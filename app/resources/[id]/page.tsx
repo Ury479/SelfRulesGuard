@@ -17,6 +17,8 @@ import {
   AddLinkForm,
 } from "@/components/resource-detail-actions"
 
+export const dynamic = "force-dynamic"
+
 export const metadata = { title: "资源详情" }
 
 function fmt(d: Date | null): string {

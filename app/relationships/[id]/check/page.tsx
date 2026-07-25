@@ -6,6 +6,8 @@ import {
 } from "@/app/actions/relationships"
 import { CommunicationCheck } from "@/components/communication-check"
 
+export const dynamic = "force-dynamic"
+
 export const metadata: Metadata = {
   title: "沟通前检查 | 人际关系筛查台",
 }

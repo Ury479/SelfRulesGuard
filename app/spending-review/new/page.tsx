@@ -3,6 +3,8 @@ import { ArrowLeft } from "lucide-react"
 import { SpendingReviewForm } from "@/components/spending-review-form"
 import { getActiveAnchors } from "@/app/actions/spending-anchors"
 
+export const dynamic = "force-dynamic"
+
 export const metadata = { title: "新建支出审核 | 决策拦截台" }
 
 export default async function NewSpendingReviewPage() {

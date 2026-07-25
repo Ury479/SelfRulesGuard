@@ -4,6 +4,8 @@ import { getEntropyConfig } from "@/app/actions/lifespan"
 import { SettingsPanel } from "@/components/settings-panel"
 import { EntropySettings } from "@/components/entropy-settings"
 
+export const dynamic = "force-dynamic"
+
 export const metadata: Metadata = { title: "设置" }
 
 export default async function SettingsPage() {

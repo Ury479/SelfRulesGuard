@@ -3,6 +3,8 @@ import type { Metadata } from "next"
 import { getRelationship } from "@/app/actions/relationships"
 import { BoundaryCheck } from "@/components/boundary-check"
 
+export const dynamic = "force-dynamic"
+
 export const metadata: Metadata = {
   title: "底线防护检查 | 人际关系筛查台",
 }

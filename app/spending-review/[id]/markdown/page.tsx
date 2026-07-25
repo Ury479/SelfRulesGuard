@@ -6,6 +6,8 @@ import { generateReviewMarkdown } from "@/lib/spending-markdown"
 import { SpendingMarkdownViewer } from "@/components/spending-markdown-viewer"
 import type { SpendingReviewExport } from "@/lib/db/schema"
 
+export const dynamic = "force-dynamic"
+
 export const metadata = { title: "Markdown 审核文档 | 决策拦截台" }
 
 export default async function SpendingMarkdownPage({

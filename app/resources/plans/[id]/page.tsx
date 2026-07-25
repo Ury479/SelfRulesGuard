@@ -14,6 +14,8 @@ import { PlanMarkdownViewer } from "@/components/plan-markdown-viewer"
 import { PlanResultForm, ClosePlanButton } from "@/components/plan-result-form"
 import { cn } from "@/lib/utils"
 
+export const dynamic = "force-dynamic"
+
 export const metadata = { title: "沟通计划" }
 
 function fmt(d: Date | null): string {

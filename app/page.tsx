@@ -5,6 +5,8 @@ import { getConfirmations } from "@/app/actions/confirmations"
 import { getRules } from "@/app/actions/rules"
 import { DayPhaseGate } from "@/components/day-phase-gate"
 
+export const dynamic = "force-dynamic"
+
 function formatDate(value: Date | string | null) {
   if (!value) return "时间待定"
   return new Intl.DateTimeFormat("zh-CN", { month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false }).format(new Date(value))

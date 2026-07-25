@@ -3,6 +3,8 @@ import { notFound } from "next/navigation"
 import { ArrowLeft, CalendarDays, Check, Circle, FileText, Pencil, RotateCw, Zap } from "lucide-react"
 import { getRule } from "@/app/actions/rules"
 
+export const dynamic = "force-dynamic"
+
 export default async function RuleDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params
   const ruleId = Number(id)
